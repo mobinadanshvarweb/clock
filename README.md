@@ -129,22 +129,7 @@ function changeDate(direction) {
 
 ---
 
-## Possible Enhancements
 
-1. **Localization**:
-   - Add support for multiple languages (e.g., Persian).
-   - Use `Intl.DateTimeFormat` for formatting dates and times in different locales.
-
-2. **Responsive Design**:
-   - Optimize the layout for mobile devices.
-
-3. **Add Alarms**:
-   - Allow users to set alarms with custom messages.
-
-4. **Theme Customization**:
-   - Enable users to select custom themes for the background and clock.
-
----
 
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute as needed.

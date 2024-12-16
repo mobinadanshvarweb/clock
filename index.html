@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clock with Date</title>
+  </head>
+  <body>
+    <main id="main">
+      <div class="setting">
+        <div>
+          <div id="format">Fa-IR</div>
+          <span></span>
+          <div id="ampm">Am-Pm</div>
+        </div>
+      </div>
+      <div class="clock-holder">
+        <span>
+          <span class="center">
+            <span id="ana-h"></span>
+            <span id="ana-m"></span>
+            <span id="ana-s"></span>
+          </span>
+          <span class="digital">
+            <span id="digit-h">00</span>
+            <span id="digit-m">00</span>
+            <span id="digit-s">00</span>
+          </span>
+        </span>
+      </div>
+      <div class="date-slider">
+        <div onclick="changeDate(-1)" id="pre">&lt;</div>
+        <div class="date-holder">
+          <p id="date">
+            <span id="month"></span>
+            <span id="day-m"></span>
+            <span id="year"></span>
+            <span id="day-w"></span>
+          </p>
+        </div>
+        <div onclick="changeDate(1)" id="next">&gt;</div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,5 +1,7 @@
 # Clock and Date Slider Project
 
+[DEMO](https://clock-nu-swart.vercel.app/)
+
 This project is a web-based clock and date slider application that displays both an analog and digital clock, along with a date slider to navigate between previous and next dates. The clock updates dynamically, showing the current time and allowing users to view adjacent days with an interactive slider.
 
 ---

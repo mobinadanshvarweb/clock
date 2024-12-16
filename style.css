@@ -36,7 +36,7 @@ main {
 }
 .setting > div #format,
 .setting > div #ampm {
-  width: 60px;
+  min-width: 60px;
   padding: 5px;
   display: flex;
   border-radius: 8px;
@@ -151,7 +151,7 @@ main {
   box-shadow: 1px 1px 5px #f8eded;
 }
 .date-holder {
-  width: 330px;
+  width: 310px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,4 +168,11 @@ main {
   padding: 20px;
   border: 1px solid red;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .date-slider {
+    flex-direction: column;
+  }
 }
